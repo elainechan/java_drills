@@ -1,8 +1,27 @@
 public class SimpleLocation 
 {
 
-	public double latitude;
-	public double longitude;
+	// Rule of thumb:
+	// Make member variables private
+	// Make global methods public
+	// Make helper methods private
+	private double latitude;
+	private double longitude;
+
+	// Getters and setters allow more control
+	public double getLatitude()
+	{
+
+		return this.latitude;
+	
+	}
+
+	public void setLatitude(double lat)
+	{
+
+		this.latitude = lat
+	
+	}
 
 	// Default constructor: method to create new object without parameters
 	// Constructor is "overloaded"
