@@ -1,4 +1,4 @@
-public class SimpleLocation 
+public class SimpleLocation
 {
 
 	// Rule of thumb:
@@ -19,13 +19,13 @@ public class SimpleLocation
 	public void setLatitude(double lat)
 	{
 
-		this.latitude = lat
+		this.latitude = lat;
 	
 	}
 
 	// Default constructor: method to create new object without parameters
 	// Constructor is "overloaded"
-	public SimpleLocation
+	public SimpleLocation()
 	{
 
 		this.latitude = 32.9;
