@@ -21,6 +21,15 @@ class Hound extends Dog
 	}
 }
 
+public class OverridingTest
+{
+	public static void main(String [] args)
+	{
+		Dog d = new Hound();
+		d.bark(); // Output: bowl
+	}
+}
+
 // Overloading
 class Dog
 {
